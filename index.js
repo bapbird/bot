@@ -9,9 +9,7 @@ const client = new Client({
   ]
 });
 const prefix = '배뱁새'; // 이 부분에 봇의 사용할 접두사를 설정하세요
-client.login('MTE5NzcyMzE2NzI4ODk5MTg1Ng.G5H2Gb.xlss9Gi-ECUTG7u5xV_eVdqKoF236qITpulpa4');
-
-client.once('ready', () => {
+client.logeady', () => {
   console.log("봇이 준비되었습니다.")
   client.user.setActivity('이세돌', { type: ActivityType.Watching });
 });
